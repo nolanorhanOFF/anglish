@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprends l'Anglais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenue sur Apprends l'Anglais !</h1>
+    <p>Écris la traduction du mot affiché :</p>
+    <p id="word">Cat</p>
+    <input type="text" id="answer" placeholder="Écris ici">
+    <button onclick="checkAnswer()">Vérifier</button>
+    <p id="result"></p>
+
+    <h2>Prononciation</h2>
+    <p>Prononce le mot suivant :</p>
+    <p id="speakWord">Dog</p>
+    <button onclick="startListening()">🎤 Parler</button>
+    <p id="speechResult"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
